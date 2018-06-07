@@ -1,0 +1,3 @@
+msgid "Profile"
+msgstr "Profil"
+
