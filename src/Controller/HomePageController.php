@@ -7,7 +7,6 @@ class HomePageController extends Controller
 {
     public function homepageAction()
     {
-        die('ok');
-        //return $this->render('views/homepage.twig');
+        return $this->render('views/homepage.twig');
     }
 }

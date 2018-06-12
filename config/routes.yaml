@@ -7,9 +7,9 @@ homepage:
     controller: App\Controller\HomePageController::homepageAction
 
 profile:
-    path: "/profile"
+    path: /profile
     controller: App\Controller\ProfileController::indexAction
 
 pageabo:
-    path: "/pageabo"
+    path: /pageabo
     controller: App\Controller\PageAboController::aboAction
