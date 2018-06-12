@@ -2,6 +2,14 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
+homepage:
+    path: /
+    controller: App\Controller\HomePageController::homepageAction
+
 profile:
-    path: '/profile'
-    controller: 'App\Controller\ProfileController::indexAction'
+    path: "/profile"
+    controller: App\Controller\ProfileController::indexAction
+
+pageabo:
+    path: "/pageabo"
+    controller: App\Controller\PageAboController::aboAction
